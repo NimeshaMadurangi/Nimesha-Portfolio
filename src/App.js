@@ -1,7 +1,6 @@
 // App.js
 
 import React from 'react';
-import Header from './components/Header';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Project';
@@ -12,7 +11,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Header />
       <Home />
       <AboutMe />
       <Projects />
