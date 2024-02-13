@@ -44,7 +44,7 @@ body {
 /* Projects.css */
 
 #projects {
-  background-color: #8FED92;
+  background-color: #fff;
   padding: 20px;
 }
 
@@ -55,7 +55,7 @@ body {
 /* Skills.css */
 
 #skills {
-  background-color: #8FED92;
+  background-color: #fff;
   padding: 20px;
 }
 
@@ -77,10 +77,30 @@ li {
 }
 
 a {
-  color: #8FED92;
+  color: #1f036b;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
 }
+
+/* Button.css */
+
+.square-button {
+  display: inline-block;
+  padding: 50px 40px; /* Adjust padding for height and width */
+  margin: 10px;
+  background-color: #8c22e9;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.5em; /* Adjust font size */
+  cursor: pointer;
+}
+
+.square-button:hover {
+  background-color: #c15af0; /* Change color on hover */
+}
+

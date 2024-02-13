@@ -7,13 +7,12 @@ function Home() {
   return (
     <div>
       <h1>Welcome to My Portfolio</h1>
-      <p>Explore my projects, skills, and more!</p>
-      <div className="button-container">
-        <button className="button-container"><a href="#about">About</a></button>
-        <a href="#projects" className="button-container">Projects</a>
-        <a href="#skills" className="button-container">Skills</a>
-        <a href="#contact" className="button-container">Contact</a>
-      </div>
+      <h3>Explore my projects, skills, and more!</h3>
+      <br/>
+        <button className="square-button"><a href="#about">About</a></button>
+        <button className="square-button"><a href="#projects">Projects</a></button>
+        <button className="square-button"><a href="#skills">Skills</a></button>
+        <button className="square-button"><a href="#contact">Contact</a></button>
     </div>
   );
 }
