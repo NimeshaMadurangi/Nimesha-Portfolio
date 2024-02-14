@@ -4,19 +4,23 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4; /* Light background color for the entire page */
-  color: #333; /* Default text color */
+  background-color: #000000; /* Light background color for the entire page */
+  color: #fff; /* Default text color */
 }
 
 .App {
   text-align: center;
 }
 
+
 /* Home.css */
 
 #home {
-  background-color: #fff; /* Black background color */
-  color: #000000;
+  background-image: url(/public/bb.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
   padding: 20px;
 }
 
@@ -36,6 +40,12 @@ body {
 .home-content {
   display: flex;
   align-items: center;
+  text-align: left;
+}
+
+.desc {
+  text-align: center;
+  margin-top: 50px;
 }
 
 
@@ -59,8 +69,10 @@ body {
 }
 
 .profile-image {
-  max-width: 100%;
+  max-width: 10%;
   height: auto;
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  margin-left: auto; /* Align to the right within the container */
   border-radius: 8px; /* Add border-radius for rounded corners */
 }
 
@@ -98,7 +110,7 @@ li {
 /* Contact.css */
 
 #contact {
-  background-color: #eee;
+  background-color: #fff;
   padding: 20px;
 }
 
@@ -119,7 +131,7 @@ a:hover {
   width: 150px; /* Set the width */
   padding: 20px; /* Adjust padding for content inside the button */
   margin: 10px;
-  background-color: #8013cd;
+  background-color: #2e15f1;
   color: #fff;
   text-decoration: none;
   border: none;
@@ -129,7 +141,7 @@ a:hover {
 }
 
 .square-button:hover {
-  background-color: #8a05e9; /* Change color on hover */
+  background-color: #8573ea; /* Change color on hover */
 }
 
 
@@ -137,8 +149,17 @@ a:hover {
 /* Footer.css */
 
 footer {
-  background-color: #751598; /* Dark background color for the footer */
-  color: #fff; /* White text color */
+  background-color: #e3c5ee; /* Dark background color for the footer */
+  color: #080000; /* White text color */
+  padding: 10px;
+  text-align: center;
+}
+
+/* Header.css */
+
+header {
+  background-color: #e3c5ee; /* Dark background color for the footer */
+  color: #080000; /* White text color */
   padding: 10px;
   text-align: center;
 }
