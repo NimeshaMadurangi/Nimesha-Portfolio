@@ -4,11 +4,40 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Light background color for the entire page */
+  color: #333; /* Default text color */
 }
 
 .App {
   text-align: center;
 }
+
+/* Home.css */
+
+#home {
+  background-color: #fff; /* Black background color */
+  color: #000000;
+  padding: 20px;
+}
+
+.image-container {
+  margin-left: auto; /* Align to the right */
+  margin-right: 20px; /* Add margin for spacing */
+}
+
+.programming-gif {
+  max-width: 100%; /* Set the width to 50% of its container */
+  height: auto;
+  display: block; /* Remove any default inline styles */
+  margin-left: auto; /* Align to the right within the container */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+}
+
 
 
 
@@ -25,18 +54,15 @@ body {
   align-items: center;
 }
 
-.image-container {
-  margin-left: auto; /* Align to the right */
-  margin-left: 20px; /* Add margin for spacing */
+.image-container2 {
+  margin-right: 20px; /* Adjust as needed */
 }
 
-.programming-gif {
+.profile-image {
   max-width: 100%;
   height: auto;
-  margin-right: auto;
   border-radius: 8px; /* Add border-radius for rounded corners */
 }
-
 
 
 
@@ -77,7 +103,7 @@ li {
 }
 
 a {
-  color: #1f036b;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -89,9 +115,11 @@ a:hover {
 
 .square-button {
   display: inline-block;
-  padding: 50px 40px; /* Adjust padding for height and width */
+  height: 200px; /* Set the height */
+  width: 150px; /* Set the width */
+  padding: 20px; /* Adjust padding for content inside the button */
   margin: 10px;
-  background-color: #8c22e9;
+  background-color: #8013cd;
   color: #fff;
   text-decoration: none;
   border: none;
@@ -101,6 +129,17 @@ a:hover {
 }
 
 .square-button:hover {
-  background-color: #c15af0; /* Change color on hover */
+  background-color: #8a05e9; /* Change color on hover */
+}
+
+
+
+/* Footer.css */
+
+footer {
+  background-color: #751598; /* Dark background color for the footer */
+  color: #fff; /* White text color */
+  padding: 10px;
+  text-align: center;
 }
 

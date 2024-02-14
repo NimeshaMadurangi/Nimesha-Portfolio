@@ -1,6 +1,7 @@
 // App.js
 
 import React from 'react';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Project';
@@ -16,6 +17,7 @@ function App() {
       <Projects />
       <Skills />
       <Contact />
+      <Footer />
     </div>
   );
 }
