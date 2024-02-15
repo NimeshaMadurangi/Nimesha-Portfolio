@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #000000; /* Light background color for the entire page */
+  background-color: #000000;
   color: #fff; /* Default text color */
 }
 
@@ -16,65 +16,84 @@ body {
 /* Home.css */
 
 #home {
-  background-image: url(/public/bb.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: #fff;
-  padding: 20px;
+  text-align: center;
+  padding: 40px 0;
 }
 
-.image-container {
-  margin-left: auto; /* Align to the right */
-  margin-right: 20px; /* Add margin for spacing */
-}
-
-.programming-gif {
-  max-width: 100%; /* Set the width to 50% of its container */
-  height: auto;
-  display: block; /* Remove any default inline styles */
-  margin-left: auto; /* Align to the right within the container */
-  border-radius: 8px; /* Add border-radius for rounded corners */
-}
-
-.home-content {
-  display: flex;
-  align-items: center;
-  text-align: left;
+.content-container {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .desc {
-  text-align: center;
-  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+.animation-container {
+  float: right;
+  margin-right: 5px;
+  align-items: right;
+}
+
+.animation-gif {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+h4 {
+  margin-top: 20px;
 }
 
 
-
-
-/* AboutMe.css */
+/* About.css */
 
 #about {
-  background-color: #fff; /* Black background color */
-  color: #000000;
-  padding: 20px;
+  text-align: center;
+  padding: 40px 0;
+}
+
+#abouth3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #fff; 
+}
+
+#about_h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #fff; 
+  text-align: ;
 }
 
 .about-content {
-  display: flex;
-  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 15px;
+  text-align: left;
 }
 
 .image-container2 {
-  margin-right: 20px; /* Adjust as needed */
+  margin-top: 20px;
 }
 
 .profile-image {
-  max-width: 10%;
-  height: auto;
-  border-radius: 8px; /* Add border-radius for rounded corners */
-  margin-left: auto; /* Align to the right within the container */
-  border-radius: 8px; /* Add border-radius for rounded corners */
+  width: 100%; /* Make the image responsive */
+  max-width: 300px; /* Set a maximum width for larger screens */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
 }
+
 
 
 
@@ -82,7 +101,7 @@ body {
 /* Projects.css */
 
 #projects {
-  background-color: #fff;
+  background-color: #000000;
   padding: 20px;
 }
 
@@ -93,7 +112,7 @@ body {
 /* Skills.css */
 
 #skills {
-  background-color: #fff;
+  background-color: #000000;
   padding: 20px;
 }
 
@@ -110,7 +129,7 @@ li {
 /* Contact.css */
 
 #contact {
-  background-color: #fff;
+  background-color: #000000;
   padding: 20px;
 }
 
@@ -158,9 +177,25 @@ footer {
 /* Header.css */
 
 header {
-  background-color: #e3c5ee; /* Dark background color for the footer */
-  color: #080000; /* White text color */
-  padding: 10px;
+  background-color: #333; /* Adjust the background color as needed */
+  padding: 10px 0;
   text-align: center;
 }
+
+nav {
+  display: flex;
+  justify-content: right;
+}
+
+a {
+  color: white; /* Adjust the link text color */
+  text-decoration: none;
+  margin: 0 15px; /* Adjust the spacing between links */
+  font-size: 16px; /* Adjust the font size */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
 
