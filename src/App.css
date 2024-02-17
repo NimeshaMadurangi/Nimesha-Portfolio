@@ -23,8 +23,8 @@ body {
 .content-container {
   max-width: 1500px;
   margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 75px;
+  margin-bottom: 200px;
+  margin-left: 100px;
 }
 
 .desc {
@@ -65,8 +65,8 @@ h4 {
 /* About.css */
 
 #about {
-  text-align: center;
-  padding: 40px 0;
+  text-align: left;
+  padding: 10px;
 }
 
 #abouth3 {
@@ -75,16 +75,34 @@ h4 {
   color: #fff; 
 }
 
-#about_h1 {
+#abouth1 {
   font-size: 3em;
   margin-bottom: 20px;
   color: #fff; 
-  text-align: ;
+  text-align: center;
+}
+
+#abouth2 {
+  font-size: 1.5em;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #fff; 
+  text-align: left;
+}
+
+#abouth4 {
+  font-size: 1em;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #fff; 
+  text-align: left;
 }
 
 .about-content {
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 1500px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  margin-left: 100px;
 }
 
 p {
@@ -95,19 +113,21 @@ p {
   text-align: left;
 }
 
-.image-container2 {
-  margin-top: 20px;
+.image-container {
+  float: right;
+  align-items: right;
 }
 
 .profile-image {
-  width: 100%; /* Make the image responsive */
-  max-width: 300px; /* Set a maximum width for larger screens */
-  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  align-items: right;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 1000px;
 }
-
-
-
 
 
 /* Projects.css */
@@ -158,21 +178,19 @@ a:hover {
 
 .square-button {
   display: inline-block;
-  height: 200px; /* Set the height */
+  height: 30px; /* Set the height */
   width: 150px; /* Set the width */
-  padding: 20px; /* Adjust padding for content inside the button */
-  margin: 10px;
-  background-color: #2e15f1;
+  padding: auto;
+  background-color: #ba9f06;
   color: #fff;
-  text-decoration: none;
   border: none;
   border-radius: 8px;
-  font-size: 1.5em; /* Adjust font size */
+  font-size: 1em;
   cursor: pointer;
 }
 
 .square-button:hover {
-  background-color: #8573ea; /* Change color on hover */
+  background-color: #cf2c0b; /* Change color on hover */
 }
 
 
