@@ -3,16 +3,9 @@ import Header from './Header';
 
 function Home() {
   return (
-    <section id="home">
+    <section id="home" style={{ backgroundImage: 'url("./bc.jpg")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div className="content-container">
         <div className="desc">
-        <div className="animation-container">
-        <img
-          src="./wordanime.gif"
-          alt="Animation"
-          className="animation-gif"
-         />
-    </div>
           <br/><br/><br/><br/> <br/><br/>
           <h3>- Hello -</h3>
           <h1>I'm Nimesha Madurangi</h1>

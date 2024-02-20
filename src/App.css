@@ -5,7 +5,7 @@ body {
   padding: 0;
   font-family: 'Arial', sans-serif;
   background-color: #000000;
-  color: #fff; /* Default text color */
+  color: #fff;
 }
 
 .App {
@@ -24,11 +24,11 @@ body {
   max-width: 1500px;
   margin-top: 50px;
   margin-bottom: 200px;
-  margin-left: 100px;
+  margin-left: 400px;
 }
 
 .desc {
-  align-items: right;
+  align-items: center;
 }
 
 h3 {
@@ -66,7 +66,7 @@ h4 {
 
 #about {
   text-align: left;
-  padding: 10px;
+  padding: 20px;
 }
 
 #abouth3 {
@@ -78,7 +78,7 @@ h4 {
 #abouth1 {
   font-size: 3em;
   margin-bottom: 20px;
-  color: #fff; 
+  color: #0906ba; 
   text-align: center;
 }
 
@@ -91,8 +91,8 @@ h4 {
 }
 
 #abouth4 {
-  font-size: 1em;
-  margin-left: 20px;
+  font-size: 1.25em;
+  margin-left: 100px;
   margin-bottom: 20px;
   color: #fff; 
   text-align: left;
@@ -102,7 +102,7 @@ h4 {
   max-width: 1500px;
   margin-top: 50px;
   margin-bottom: 200px;
-  margin-left: 100px;
+  margin-left: 200px;
 }
 
 p {
@@ -126,7 +126,7 @@ p {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
   margin-bottom: 10px;
-  margin-left: 1000px;
+  margin-right: 200px;
 }
 
 
@@ -161,17 +161,52 @@ li {
 /* Contact.css */
 
 #contact {
-  background-color: #000000;
+  text-align: left;
   padding: 20px;
 }
 
-a {
-  color: #fff;
-  text-decoration: none;
+#conth3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #fff; 
 }
 
-a:hover {
-  text-decoration: underline;
+#conth1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #0906ba; 
+  text-align: center;
+}
+
+#conth2 {
+  font-size: 1.5em;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #fff; 
+  text-align: left;
+}
+
+#conth4 {
+  font-size: 3em;
+  margin-left: 300px;
+  margin-bottom: 20px;
+  color: #fff; 
+  text-align: left;
+}
+
+.contact-content {
+  max-width: 1500px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  margin-left: 200px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 15px;
+  text-align: left;
 }
 
 /* Button.css */
@@ -181,7 +216,7 @@ a:hover {
   height: 30px; /* Set the height */
   width: 150px; /* Set the width */
   padding: auto;
-  background-color: #ba9f06;
+  background-color: #0906ba;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -190,7 +225,7 @@ a:hover {
 }
 
 .square-button:hover {
-  background-color: #cf2c0b; /* Change color on hover */
+  background-color: #3088d0; /* Change color on hover */
 }
 
 
@@ -198,7 +233,7 @@ a:hover {
 /* Footer.css */
 
 footer {
-  background-color: #e3c5ee; /* Dark background color for the footer */
+  background-color: #0906ba; /* Dark background color for the footer */
   color: #080000; /* White text color */
   padding: 10px;
   text-align: center;
@@ -207,7 +242,7 @@ footer {
 /* Header.css */
 
 header {
-  background-color: #ba9f06; /* Adjust the background color as needed */
+  background-color: #0906ba; /* Adjust the background color as needed */
   padding: 10px 0;
   text-align: center;
 }

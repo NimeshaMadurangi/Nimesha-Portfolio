@@ -18,6 +18,7 @@ function App() {
       <Header />
       <Home />
       <AboutMe />
+      <Contact />
     </div>
   );
 }
